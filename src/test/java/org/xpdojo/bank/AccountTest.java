@@ -9,5 +9,6 @@ public class AccountTest {
 
     @Test
     public void getbalance() {assertThat(Account.balance=0);}
-}
+
+    }
 
