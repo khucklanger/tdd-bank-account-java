@@ -9,5 +9,9 @@ public class Account {
         return bal;
     }
 
+    public void depositMoney(int x ){
+        bal += x;
+    }
+
 
 }
