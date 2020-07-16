@@ -13,5 +13,7 @@ public class Account {
         bal += x;
     }
 
-
+    public void withdrawMoney(int x ){
+        bal -= x;
+    }
 }

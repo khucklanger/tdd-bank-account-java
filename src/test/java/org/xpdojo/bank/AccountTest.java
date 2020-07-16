@@ -19,6 +19,11 @@ public class AccountTest {
         objA.depositMoney(20);
         assertThat(objA.bal=30);
     }
+    @Test
+    public void withdrawMoney() {
+        objA.withdrawMoney(7);
+        assertThat(objA.bal=23);
+    }
 	@Disabled
     public void depositAnAmountToIncreaseTheBalance() {
         assertThat("your first test").isBlank();
